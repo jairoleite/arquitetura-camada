@@ -17,6 +17,6 @@ public class PessoaDTO {
 		this.id = entity.getId();
 		this.nome = entity.getNome();
 		this.idade = entity.getIdade();
-	}
+	} 
 	
 }
