@@ -13,10 +13,13 @@ public class PessoaDTO {
 	private String nome;
 	private Integer idade;
 	
-	public PessoaDTO(Pessoa entity) {
-		this.id = entity.getId();
-		this.nome = entity.getNome();
-		this.idade = entity.getIdade();
+	public PessoaDTO() {
+	}
+	
+	public PessoaDTO(Pessoa entidade) {
+		this.id = entidade.getId();
+		this.nome = entidade.getNome();
+		this.idade = entidade.getIdade();
 	} 
 	
 }
